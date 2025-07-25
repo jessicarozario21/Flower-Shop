@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    color: #6e6e6e;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-bold {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 65px;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.bg-color {
+    background-color: #f5f8ff;
+}
+
+.text-dark-1 {
+    color: black;
+}
+
+.text-orange {
+    color: #E95A08;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-gray {
+    color: #6e6e6e;
+}
+
+.button {
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* header styles */
+/* navbar related styles */
+.logo {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 135;
+    height: 82;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 80px;
+    padding-top: 35px;
+    margin-bottom: 50px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 48px;
+    gap: 48;
+    width: 46;
+    height: 24;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #252432;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar,
+.banner {
+    min-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1140;
+    max-height: 597;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 80px;
+    padding-top: 80px;
+    width: 1140;
+    height: 461;
+    top: 221px;
+    padding: 0%;
+
+}
+
+.banner-left {
+    width: 570;
+    height: 299;
+}
+
+.banner-img {
+    width: 570px;
+    height: 355px;
+}
+
+.banner-title {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 65px;
+    font-variation-settings:
+        "wdth" 100;
+    width: 570;
+    height: 178;
+}
+
+.banner-description {
+    font-family: "Inter", sans-serif;
+    color: #6e6e6e;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    width: 570;
+    height: 178;
+    text-align: left;
+    min-width: 500px;
+}
+
+/* Our Plants */
+.our-plants {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 50px; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plant-description {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* <!-- Flower & Plants Lover --> */
+.flower-plants {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    padding: 25px;
+    gap: 50px;
+
+}
+
+.flower-store-img {
+    position: relative;
+    width: 540px;
+    height: 597px;
+    border-radius: 48px;
+    justify-content: space-between;
+    color: rgba(103, 171, 234, 0.24) rgba(233, 90, 8, 0.6);
+}
+
+.h2-flower {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.trusted-badge {
+    position: absolute;
+    Width: 286px;
+    Height: 286px;
+    Top: 1930px;
+    Left: 497px;
+}
+
+/* Latest Deals */
+.latest-deals {
+    text-align: center;
+}
+
+.h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+/* Left Side Boxes */
+.promo-grid-left {
+    gap: 10px 10px;
+    padding: 10px 10px;
+}
+
+.bloom {
+    background-image: url(../images/deal-bloom.png);
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 366.22px;
+    max-height: 206px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 140px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+
+.lazo {
+    background-image: url(../images/deal-ana.png);
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 366.22px;
+    max-height: 206px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 140px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+/* Right Side - Tall Box */
+.promo-grid-right {
+    gap: 10px;
+}
+
+.zabo {
+    background-image: url(../images/deal-zabo.png);
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    max-width: 754px;
+    max-height: 423px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 160px 500px;
+}
+
+
+/* Join the colorful bunch */
+.section-banner {
+    background-image: url(../images/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.search-parent {
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    width: 644px;
+    height: 40px;
+    border: none;
+    gap: 0;
+}
+
+.search-button {
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 186;
+    height: 50;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    width: 1440;
+    height: 348;
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    height: 60px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.link-column a {
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons img {
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    text-decoration: none;
+    width: 1440;
+    height: 348;
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-item {
+
+    text-decoration: none;
+    list-style: none;
+    margin-right: 48px;
+    gap: 48;
+    width: 46;
+    height: 24;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+
+    text-decoration: none;
+    color: #252432;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-column {
+        margin-bottom: 20px;
+    }
+}
